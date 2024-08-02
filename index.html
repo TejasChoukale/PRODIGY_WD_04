@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form id="locationForm">
+            <label for="locationInput">Enter Location (City Name or Coordinates):</label>
+            <input type="text" id="locationInput" placeholder="e.g., London or 44.34,10.99" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="weatherDisplay" class="weather-display"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
